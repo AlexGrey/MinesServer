@@ -1,0 +1,6 @@
+C:\Photon\deploy\TestPhotonLib\bin\TestPhotonLib.dll
+C:\Photon\deploy\TestPhotonLib\bin\TestPhotonLib.pdb
+C:\Photon\src-server\TestPhotonLib\TestPhotonLib\TestPhotonLib\obj\Debug\TestPhotonLib.csprojResolveAssemblyReference.cache
+C:\Photon\src-server\TestPhotonLib\TestPhotonLib\TestPhotonLib\obj\Debug\TestPhotonLib.dll
+C:\Photon\src-server\TestPhotonLib\TestPhotonLib\TestPhotonLib\obj\Debug\TestPhotonLib.pdb
+C:\Photon\deploy\TestPhotonLib\bin\log4net.config
