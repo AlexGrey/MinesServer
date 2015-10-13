@@ -2,4 +2,3 @@ C:\PhotonUnityClient\Assets\Plugins\TestPhotonLib.Common.dll
 C:\PhotonUnityClient\Assets\Plugins\TestPhotonLib.Common.pdb
 C:\Photon\src-server\TestPhotonLib\TestPhotonLib\TestPhotonLib.Common\obj\Debug\TestPhotonLib.Common.dll
 C:\Photon\src-server\TestPhotonLib\TestPhotonLib\TestPhotonLib.Common\obj\Debug\TestPhotonLib.Common.pdb
-C:\Photon\src-server\TestPhotonLib\TestPhotonLib\TestPhotonLib.Common\obj\Debug\TestPhotonLib.Common.csprojResolveAssemblyReference.cache

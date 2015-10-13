@@ -13,5 +13,7 @@ namespace TestPhotonLib.Operations {
 
         [DataMember(Code = (byte)ParameterCode.ChatMessage)]
         public string Message { get; set; }
+
+
     }
 }

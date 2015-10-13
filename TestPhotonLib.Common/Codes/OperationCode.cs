@@ -9,5 +9,6 @@ namespace TestPhotonLib.Common {
         Login,
         SendChatMessage,
         GetRecentChatMessage,
+        GetAmountOfPlayers,
     }
 }

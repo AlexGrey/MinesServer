@@ -38,12 +38,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomEventArgs\AmountOfPlayersEventArgs.cs" />
     <Compile Include="CustomEventArgs\ChatMessageEventArgs.cs" />
     <Compile Include="CustomEventArgs\LoginEventArgs.cs" />
-    <Compile Include="ErrorCode.cs" />
-    <Compile Include="EventCode.cs" />
-    <Compile Include="OperationCode.cs" />
-    <Compile Include="ParameterCode.cs" />
+    <Compile Include="Codes\ErrorCode.cs" />
+    <Compile Include="Codes\EventCode.cs" />
+    <Compile Include="Codes\OperationCode.cs" />
+    <Compile Include="Codes\ParameterCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,8 +5,8 @@ using System.Text;
 
 namespace TestPhotonLib.Common {
 
-    public enum ParameterCode:byte {
-        CharacterName,
+    public enum EventCode:byte {
         ChatMessage,
+        AmountOfPlayers,
     }
 }

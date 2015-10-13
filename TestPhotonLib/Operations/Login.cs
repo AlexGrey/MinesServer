@@ -14,5 +14,6 @@ namespace TestPhotonLib.Operations {
 
         [DataMember(Code = (byte)ParameterCode.CharacterName)]
         public string CharacterName { get; set; }
+
     }
 }

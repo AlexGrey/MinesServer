@@ -6,13 +6,13 @@ using System.Text;
 using System.Threading;
 
 namespace TestPhotonLib {
-    public class World {
-        public static readonly World Instance = new World();
+    public class AccountService {
+        public static readonly AccountService Instance = new AccountService();
 
         public List<UnityClient> Clients { get; set; }
         private readonly ReaderWriterLockSlim readWriteLock;
 
-        public World() {
+        public AccountService() {
             Clients = new List<UnityClient>();
             readWriteLock = new ReaderWriterLockSlim();
         }
@@ -39,7 +39,7 @@ namespace TestPhotonLib {
             return Clients.Count;
         }
 
-        ~World() {
+        ~AccountService() {
             readWriteLock.Dispose();
         }
     }

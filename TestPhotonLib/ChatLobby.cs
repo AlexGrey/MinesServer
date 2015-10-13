@@ -6,21 +6,21 @@ using System.Text;
 using System.Threading;
 
 namespace TestPhotonLib {
-    public class Chat {
+    public class ChatLobby {
 
-        public static readonly Chat Instance = new Chat();
+        public static readonly ChatLobby Instance = new ChatLobby();
         private List<string> Messages { get; set; }
         private readonly ReaderWriterLockSlim readWriteLock;
 
         private const int MAX_RECENT_MESSAGES = 10;
         private const int MAX_BUFFERED_MESSAGES = 1000;
 
-        public Chat() {
+        public ChatLobby() {
             Messages = new List<string>();
             readWriteLock = new ReaderWriterLockSlim();
         }
 
-        ~Chat() {
+        ~ChatLobby() {
             readWriteLock.Dispose();
         }
 
@@ -40,7 +40,7 @@ namespace TestPhotonLib {
             }
         }
 
-        public void AddMEssage(string message) {
+        public void AddMessage(string message) {
             using (WriteLock.TryEnter(this.readWriteLock, 1000)) {
                 Messages.Add(message);
 
